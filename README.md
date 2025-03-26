@@ -87,6 +87,7 @@ The system architecture is designed to be modular and scalable. It consists of t
 | User Authentication|
 |   (OAuth2 / JWT)   |
 +--------------------+
+```
 
 ## Section 4: Data Dictionary
 
