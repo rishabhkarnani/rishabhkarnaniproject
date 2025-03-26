@@ -137,6 +137,7 @@ The interface is designed to be user-friendly and responsive. It includes:
 ### 6.2 User Interface Navigation Flow
 
 1. **Login Screen** → 2. **Dashboard** → 3. **Itinerary Page** → 4. **Reminders Section**
+---
 
 ## Section 7: Testing
 
@@ -148,6 +149,7 @@ The interface is designed to be user-friendly and responsive. It includes:
   - **Test case for login functionality**: Ensure valid credentials allow access and invalid credentials result in an error.
   - **Test case for document upload**: Ensure that only supported file types (PDF, JPG, PNG) are uploaded.
   - **Test case for trip creation**: Ensure users can create and edit their itineraries successfully.
+---
 
 ## Section 8: Monitoring
 
@@ -157,28 +159,32 @@ The interface is designed to be user-friendly and responsive. It includes:
 - **Error Rate**: Monitor failed requests to identify bugs or issues.
 - **Availability**: Uptime monitoring to ensure the system is accessible.
 
+---
 ## Section 9: Other Interfaces
 
 - **Google Maps API**: For location-based features like map integration and displaying places from the itinerary.
 
+---
 ## Section 10: Extra Design Features / Outstanding Issues
 
 - **Future Enhancements**: 
   - AI-powered trip suggestions.
   - Integration with third-party booking systems for real-time flight and hotel bookings.
 
+---
 ## Section 11: References
 
 - [Firebase Documentation](https://firebase.google.com/docs)
 - [AWS S3 Documentation](https://aws.amazon.com/s3/)
 
+---
 ## Section 12: Glossary
 
 - **API**: Application Programming Interface
 - **PK**: Primary Key
 - **FK**: Foreign Key
 
-
+---
 
 
 
