@@ -88,6 +88,7 @@ The system architecture is designed to be modular and scalable. It consists of t
 |   (OAuth2 / JWT)   |
 +--------------------+
 ```
+---
 
 ## Section 4: Data Dictionary
 
@@ -102,6 +103,7 @@ The system architecture is designed to be modular and scalable. It consists of t
 | `documents`      | `document_id`   | INTEGER     | Unique identifier for each document |
 |                  | `user_id`       | INTEGER     | Foreign key linking to `users` table|
 |                  | `file_url`      | VARCHAR(255)| URL for stored file in cloud        |
+---
 
 ## Section 5: Data Design
 
@@ -119,6 +121,8 @@ Entities:
 - **Document**
   - **Attributes**: `document_id` (PK), `user_id` (FK), `file_url`
   - **Relationships**: Each document is associated with one user.
+
+---
 
 ## Section 6: User Interface Design
 
